@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
                     }
                     if (txtView.text.toString().equals("0")) {
 
-                        Toast.makeText(applicationContext, "отсчет завершен", Toast.LENGTH_LONG).show()
+                        Toast.makeText(applicationContext, "Timer finish", Toast.LENGTH_LONG).show()
                         vibro()
                         btnStart.setBackgroundColor(Color.GREEN)
                         btnStart.setText("START")
